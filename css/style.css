@@ -1,0 +1,88 @@
+/**{
+    outline : 1px solid red !important;
+}
+*/
+div .name_job {
+    color:#2d3c49;
+    text-align: right;
+
+}
+
+*{
+
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    color: #7d97ad;
+}
+div h3 , p {
+    text-align: center;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: : 300px;
+   /* padding: 1px; */
+}
+
+.box {
+    width: 100%;
+           }
+
+.logo {
+    align-items: left;
+    padding-top: 1px;
+}
+
+
+
+.title{
+    background-color: #33BEBE;
+}
+
+@media screen and (min-width: 412px) {
+    .logo, .name_job {
+        width: 50%;
+    }
+    .middle_image {
+        width: 100%;
+    }
+    .project_1, .project_2, .project_3 {
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo, .name_job {
+        width: 50%;
+    }
+    .middle_image {
+        width: 100%;
+    }
+    .project_1, .project_2, .project_3 {
+        width: 33.33%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+            .container {
+                width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .logo, .name_job {
+                width: 50%;
+                align-items: left;
+            }
+            .middle_image {
+                width: 100%;
+            }
+            .project_1, .project_2, .project_3 {
+                width: 33.33%;
+            }
+        }
