@@ -3,44 +3,78 @@
   <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&amp;subset=latin-ext" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
 
   </head>
-
 <body>
     <div class="container">
       <div class="box logo">
-            <img src="images/logo.png" alt="Logo Image">
+      <picture>
+            <source media="(min-width: 412px)" srcset="images/logo_medium.png 1x, images/logo_medium.png 2x">
+            <img src="images/logo.png" alt="logo">
+       </picture>
       </div>
-      <div class="box name_job">
-            <h1>ABHILASHA MANYAR</h1>
-            <h3>SOFTWARE DEVELOPER</h3>
+
+      <div class="box name_title">
+            <h1 id="hname">ABHILASHA MANYAR</h1>
+            <h3 id="headingtitle">SOFTWARE DEVELOPER</h3>
       </div>
+      <div class="box line">
+        <hr> </hr>
+      </div>
+
       <div class="row middle_image">
-            <img src="images/middle_1732x1155.jpg" alt="Code Middle Image">
-            <h2>Featured Work</h2>
+            <img src="images/middle.jpg" alt="middle images">
+           <!-- <picture>
+                <source media="(min-width: 768px)" srcset="images/middle_medium.jpg 1x, images/middle_medium.jpg 2x">
+                <source media="(min-width: 412px)" srcset="images/middle_small.jpg 1x, images/middle_small.jpg 2x">
+                <img src="images/middle.jpg" alt="middle images">
+            </picture> -->
+      <h2 id="Featuredw">Featured Work</h2>
       </div>
-
       <div class="box project_1">
-              <img src="images/dory250x150.jpg" alt="Project Movie Trailer">
-              <h3>Movie Trailer WebSite</h3>
-              <p><a href="https://github.com/Abhilasha17manyar/MovieProjectPython/tree/master/ud036_StarterCode">Link to project</a></p>
-          </div>
+            <img class="projimages" src="images/dory250X150.jpg" alt="Project Movie Trailer">
+            <!-- <picture>
+                <source media="(min-width : 1199px)" srcset="images/dory250x150.jpg 1x, images/dory250x150.jpg 2x">
+                <source media="(min-width: 768px)" srcset="images/dory250x150.jpg 1x, images/dory250x150.jpg 2x">
+                <source media="(min-width: 412px)" srcset="images/dory_medium.jpg 1x, images/dory_medium.jpg 2x">
+                <img src="images/dory250X150.jpg" alt="Project Movie Trailer">
+            </picture>-->
+              <h2 class="projheading">Movie Trailers</h2>
+              <p><a href="https://github.com/Abhilasha17manyar/MovieProjectPython/tree/master/ud036_StarterCode">
+              Link to project</a></p>
+        </div>
 
-          <div class="box project_2">
-              <img src="images/cosmos-flower250x150.jpg" alt="Project Portfolio">
-              <h3>Portfolio</h3>
+        <div class="box project_2">
+            <img class="projimages" src="images/cosmos-flower250x150.jpg" alt="Project Movie Trailer">
+            <!-- <picture>
+                <source media="(min-width : 1199px)" srcset="images/cosmos-flower250x150.jpg 1x, images/cosmos-flower250x150.jpg 2x">
+                <source media="(min-width: 768px)" srcset="images/cosmos-flower250x150.jpg 1x, images/cosmos-flower250x150.jpg 2x">
+                <source media="(min-width: 412px)" srcset="images/cosmos-flower_medium.jpg 1x, images/cosmos-flower_medium.jpg 2x">
+
+               <img src="images/cosmos-flower250x150.jpg" alt="Project Movie Trailer">
+            </picture>
+ -->
+              <h2 class="projheading">Portfolio</h2>
               <p><a href="https://github.com/Abhilasha17manyar/Portfolio">Link to project</a></p>
-          </div>
+        </div>
 
-          <div class="box project_3">
-              <img src="images/flower250x150.jpg" alt="Project Test">
-              <h3>Appify</h3>
+        <div class="box project_3">
+            <img class="projimages" src="images/flower250x150.jpg" alt="Project Test">
+            <!-- <picture>
+                <source media="(min-width : 1199px)" srcset="images/flower250x150.jpg 1x, images/flower250x150.jpg 2x">
+                <source media="(min-width: 768px)" srcset="images/flower250x150.jpg 1x, images/flower250x150.jpg 2x">
+                <source media="(min-width: 412px)" srcset="images/flower_medium.jpg 1x, images/flower_medium.jpg 2x">
+
+                <img src="images/flower250x150.jpg" alt="Project Test">
+            </picture>
+ -->
+              <h2 class="projheading">Appify</h2>
               <p><a href="https://github.com/Abhilasha17manyar/JqueryTestProject/tree/master/frontend-nanodegree-resume-master">Link to project</a></p>
-          </div>
+        </div>
 
     </div>
   </body>
