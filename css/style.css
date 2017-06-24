@@ -19,7 +19,7 @@
 
 hr {
     display: block;
-    border-top:3px solid 2d3c49;
+    border-top:3px solid #2d3c49;
     width: 100%;
     background-color: #7d97ad;
     margin-top: 20px;
@@ -170,7 +170,7 @@ img {
             width: 33.33%;
         }
         #hname {
-            font-style: 20px;
+            font-size: 20px;
             font-weight: 300;
         }
         #headingtitle {
