@@ -1,15 +1,16 @@
 html,
-figure, div {
+figure,
+div {
     margin: 0;
 }
 
 * {
-    font-family: 'Lato',sans-serif;
+    font-family: "Lato",sans-serif;
 }
 
 body {
     box-sizing: border-box;
-    font-family: 'robot', sans-serif;
+    font-family: "robot", sans-serif;
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -83,6 +84,10 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     box-sizing: content-box;
+}
+
+.img-responsive {
+    display: inline;
 }
 
 
