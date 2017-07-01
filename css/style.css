@@ -90,7 +90,6 @@ hr {
     display: inline;
 }
 
-
 .middleimage {
     display: -webkit-flex;
     display: flex;/*
@@ -134,6 +133,7 @@ hr {
     margin: 0;
     padding: 0;
 }
+
 .row {
     width: 80vw;
     max-width: 100%;
@@ -141,22 +141,27 @@ hr {
     padding: 0;
 }
 
+
 @media screen and (min-width: 412px) {
     .logo, .headline {
         width: 50%;
         font-size: 0.7em;
     }
+
     .nameh1 {
         font-size: 1.2em;
         padding-top: 10px;
     }
+
      .featuredh3 {
         font-size: 1.0em;
 
      }
+
     .middle_image {
          width: 100%;
      }
+
      .projheading {
         font-size: 0.7em;
         margin: 0;
@@ -178,19 +183,23 @@ hr {
         font-size: 1.2em;
         line-height: 0.5em;
     }
+
     .nameh1 {
         font-size: 1.5em;
         padding-top: 10px;
     }
+
     .middleimage {
         width: 100%;
         max-width: 90vw;
         margin: 0;
         padding: 0;
     }
+
     .featuredh3 {
         font-size: 1.5em;
     }
+
     .projheading {
         font-size: 1em;
         margin: 1px;
@@ -215,11 +224,13 @@ hr {
     .container {
         max-width: 75em;
     }
+
     .nameh1 {
         font-size: 1.5em;
         padding-top: 10px;
         text-align: right;
     }
+
     .logo, .headline, .featuredh3 {
         width: 50%;
         font-size: 1.5em;
@@ -228,6 +239,7 @@ hr {
     .middle_image {
         width: 100%;
     }
+
     .projheading {
         font-size: 1.5em;
     }
